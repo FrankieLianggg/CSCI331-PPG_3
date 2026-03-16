@@ -33,6 +33,7 @@ UNION ALL SELECT 8
 UNION ALL SELECT 9
 UNION ALL SELECT 10;
 
+-- No changes needed for Northwinds database. 
 
 -- 3
 -- Write a query that returns customer and employee pairs 
@@ -49,6 +50,18 @@ SELECT custid, empid
 FROM Sales.Orders
 WHERE orderdate >= '20160201' AND orderdate < '20160301';
 
+-- Changes for northwinds database:Sales.Orders → dbo.Orders, custid → CustomerID, empid → EmployeeID, orderdate → OrderDate
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19970101' AND OrderDate < '19970201'
+
+EXCEPT
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19970201' AND OrderDate < '19970301';
+
 -- 4
 -- Write a query that returns customer and employee pairs 
 -- that had order activity in both January 2016 and February 2016
@@ -63,6 +76,18 @@ INTERSECT
 SELECT custid, empid
 FROM Sales.Orders
 WHERE orderdate >= '20160201' AND orderdate < '20160301';
+
+-- Changes for northwinds database:Sales.Orders → dbo.Orders, custid → CustomerID, empid → EmployeeID, orderdate → OrderDate
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19970101' AND OrderDate < '19970201'
+
+INTERSECT
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19970201' AND OrderDate < '19970301';
 
 -- 5
 -- Write a query that returns customer and employee pairs 
@@ -86,6 +111,24 @@ SELECT custid, empid
 FROM Sales.Orders
 WHERE orderdate >= '20150101' AND orderdate < '20160101';
 
+-- Changes for northwinds database:Sales.Orders → dbo.Orders, custid → CustomerID, empid → EmployeeID, orderdate → OrderDate
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19970101' AND OrderDate < '19970201'
+
+INTERSECT
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19970201' AND OrderDate < '19970301'
+
+EXCEPT
+
+SELECT CustomerID, EmployeeID
+FROM dbo.Orders
+WHERE OrderDate >= '19960101' AND OrderDate < '19970101';
+
 -- 6 (Optional, Advanced)
 -- You are given the following query:
 SELECT country, region, city
@@ -100,7 +143,19 @@ From (
 )
 ORDER BY sortcol, country, region, city;
 
+-- Changes for northwinds database: HR.Employees → dbo.Employees, Production.Suppliers → dbo.Suppliers, country → Country, region → Region, city → City
 
+SELECT Country, Region, City
+FROM (
+    SELECT 1 AS sortcol, Country, Region, City
+    FROM dbo.Employees
+
+    UNION ALL
+
+    SELECT 2, Country, Region, City
+    FROM dbo.Suppliers
+) AS D
+ORDER BY sortcol, Country, Region, City;
 
 -- You are asked to add logic to the query 
 -- such that it would guarantee that the rows from Employees
