@@ -12,3 +12,6 @@ Hello World, For Database System QC
 ![ACM membership](Pictures/4b6c3579-73a1-48f8-afbe-97bdc58446ca.png)
 ![Medium.com membership](Pictures/2cd19c72-5e56-4abe-9109-7cc0f1b865b5.png)
 
+# SHUAI WANG ACM and Medium membership:
+<img width="660" height="1434" alt="IMG_4404" src="https://github.com/user-attachments/assets/780b27e7-71df-4bf5-8918-71869beed759" />
+<img width="660" height="1434" alt="IMG_4405" src="https://github.com/user-attachments/assets/5deb7971-65b7-4bbd-a38f-7cca91e17bf1" />
