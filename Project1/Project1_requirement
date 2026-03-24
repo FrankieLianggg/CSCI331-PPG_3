@@ -1,1 +1,69 @@
+Project 1- SQL Gamification Project Specification
 
+Hide Assignment Information
+Group Category: PairProgramingGroups
+Group Name: PPG_ 3
+Instructions
+Overview   ( Submit by GitHub group link)
+This project is designed for junior and senior Computer Science (CS) majors in college to gamify the learning of T-SQL (Transact-SQL) through interactive, mystery-solving exercises and collaborative problem-solving. By using tools like Azure Data Studio with SQL Notebooks, SQL Server Management Studio (SSMS), or Visual Studio Code (VSCode) with notebook extensions, students will build practical skills in querying databases, applying advanced SQL techniques, and simulating real-world software development roles.
+
+The project emphasizes hands-on experience with sample databases (e.g., AdventureWorks, Northwind, or custom-provided datasets) to foster deeper understanding of SQL for prospective employers. It combines individual challenges for personal mastery and paired activities for teamwork and communication.
+
+Project Goals
+Enhance students' proficiency in T-SQL, including CTEs (Common Table Expressions), subqueries, functions, joins, aggregations, and complex query optimization.
+Promote gamification through "SQLNOIR" mysteries—detective-style puzzles where students "solve crimes" or uncover insights via SQL queries.
+Develop soft skills like role-playing in business-technical interactions, pair programming, and pushing personal boundaries in problem-solving.
+Prepare students for industry by tackling progressively challenging, real-world-inspired scenarios.
+Project Components
+1. Individual SQLNOIR Mysteries (10 Total)
+Each student will complete 10 multi-part mysteries independently. These are framed as "SQLNOIR" stories—narrative-driven puzzles where queries reveal clues to solve a mystery (e.g., identifying a culprit in a dataset of suspects, transactions, and alibis).
+
+Structure per Mystery:
+
+Divided into 4 sections, each building on the previous one.
+Sections 1–3: Incremental queries that gather partial insights (e.g., filtering data, joining tables, applying functions).
+Section 4: Combine everything into a single, optimized query using CTEs, subqueries, and functions to deliver the final solution.
+Requirements:
+
+Use provided sample databases.
+Queries must be written in T-SQL.
+Document solutions in a SQL Notebook (Azure Data Studio, SSMS, or VSCode), including narrative explanations, query code, and results.
+Push complexity: Incorporate window functions, recursive CTEs, or user-defined functions where appropriate to demonstrate depth.
+Evaluation Criteria:
+
+Correctness: Does the final query solve the mystery accurately?
+Efficiency: Optimized for performance (e.g., avoiding unnecessary subqueries).
+Documentation: Clear comments and explanations in the notebook.
+Creativity: How deeply did the student explore SQL features beyond basics?
+Example Style (Trivial for Illustration):
+
+Mystery: "The Missing Inventory Heist" using AdventureWorks.
+Section 1: Query products with low stock (simple SELECT with WHERE).
+Section 2: Join with sales data to find discrepancies (using subqueries).
+Section 3: Apply functions to calculate variances (e.g., SUM, DATEDIFF).
+Section 4: Single CTE-based query to identify the "thief" (employee with anomalous access).
+Note: Actual mysteries will be more complex; use the trivial examples as a style guide and aim to challenge yourself.
+
+
+2. Paired Real-World Problem-Solving (  5 each per pair member)
+Students will form pairs and alternate roles to solve real-world business problems using the same sample databases. This simulates agile development practices, with one student as the "Business Stakeholder" (navigator) guiding requirements and the other as the "Programmer/Analyst" (driver) writing the code.
+
+Structure per Session:
+Alternate roles each session (e.g., Student A navigates first, then drives next time).
+Problem: A scenario like "Analyze sales trends to recommend inventory adjustments" or "Detect fraud in transaction logs."
+Process:
+Navigator describes the business need and refines requirements verbally.
+Driver writes T-SQL queries in a shared notebook.
+Iterate: Test queries, discuss results, and refine until solved.
+Switch roles midway if needed for balance.
+Requirements:
+Use T-SQL with advanced features (CTEs, subqueries, functions) to delve deeply.
+Sessions: 5–10 total, each 1–2 hours, scheduled outside class.
+Output: Shared notebook with queries, results, and a summary of insights (e.g., "Recommended cutting stock on Item X by 20% based on query Y").
+Push Envelope: Encourage exploring edge cases, performance tuning, or integrating with tools like Power BI for visualization (optional).
+Evaluation Criteria:
+Collaboration: Effective role alternation and communication.
+Depth: How thoroughly did the pair explore SQL to provide meaningful business insights?
+Innovation: Did they go beyond basics to impress prospective employers (e.g., using PIVOT/UNPIVOT or stored procedures)?
+Documentation: Notebook includes role notes, query evolution, and final recommendations.
+Due on Mar 27, 2026 11:59 PM
