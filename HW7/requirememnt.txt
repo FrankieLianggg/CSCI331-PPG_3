@@ -1,1 +1,65 @@
+HW 7 - Chapter 8: Data modification
 
+Hide Assignment Information
+Group Category
+EOS_grp
+Group Name
+EOS_grp_ 2
+Instructions
+Supplemental Resources:
+
+Refer to the supplemental SQL videos at http://bit.ly/CSCI331SupplementalSqlVideos to assist in your learning process. Begin reading materials for the next class.
+
+Readings and Examples:
+
+Review Chapter 8, "Data Modification". This chapter builds on the information from the previous chapter.
+Participate in the group homework assignment; team members should cross-train each other. The team's overall strength is determined by its weakest member.
+Complete the examples provided for both chapters at http://bit.ly/CSCI331-Homework.
+For the Chapter 3 assignment, use the Named Database: Northwinds2024Student.
+Assignments:
+
+The Chapter 8 assignment involves building propositions and queries to solve that solve each of your propositions.
+Each member will showcase all 10 of their propositions and queries in a SQL notebook in Azure Data Studio or DBeaver.
+Each group member will explain their top 10 propositions and query solutions.
+Discuss why these queries were considered special.
+The video should capture all the queries and be submitted based on the use of the Named Database criteria:
+Assignments should be submitted in the following format: "Individual_GroupNumber_HW#_MemberName.PYNB".
+Use the Named Database to test your queries. Ensure your queries function correctly within this database.
+Create 5 queries in excel and use PowerQuery to transform table and create a report in excel.
+Database Adjustments:
+
+Implement your queries in the Named Database.
+Modify your queries to work with the tables and columns required for assignment submission.
+Delegated Assignments:
+
+Create and complete individual tasks as outlined in the "Class Time - Group Number – To-do list for Homework Number.xlsx" document.
+Problem Proposition:
+
+Formulate a proposition that clearly defines the problem being addressed against the Named Database.
+Query Modifications:
+
+Present your usage of the to-do list and Gantt chart.
+Explain how the NACE competencies helped you leverage the creation of the MP4.
+If you used any LLM, such as ChatGPT, Claude.ai, Google Gemmini-2, or any Ollama.ai LMM, it must be footnoted to enhance the proposition creation or code documentation.
+Record the presentation walkthrough (Consider using SQL Notebooks from Azure Data Studio, which is your group's call).
+Consolidate the individual contributions from your group members into an MP4 file. The presentation should articulate your strategy in a manner easily understandable to non-technical end-users.
+The homework leader should be the only one to submit the work in the format of a link to their GitHub account containing all the group members’ work and create a link to a zip file for download submission (2 links)
+Final Submission:
+
+Record the presentation walkthrough.
+Save and submit the recording in MP4 format.
+Sample Skills Acquired through These NACE Career Readiness Competencies for This Group Assignment:
+
+Equity & Inclusion: Fostered awareness and sensitivity towards diverse perspectives, promoting inclusivity and equality in professional settings.
+Career & Self-Development: Showcased the ability to set goals, identify personal strengths and weaknesses, and craft effective career development plans.
+Communication: Enhanced verbal and written communication skills to facilitate clear, concise interactions.
+Critical Thinking: Fostered analytical and problem-solving skills, approaching challenges with a systematic and innovative mindset.
+Professionalism: Cultivated a professional demeanor by adhering to ethical standards and demonstrating accountability and reliability in the workplace.
+Technology: Gained proficiency in relevant technologies to improve efficiency and productivity in job-related tasks.
+Leadership: Developed leadership skills, including motivating and guiding team members, fostering collaboration, and inspiring positive change.
+Teamwork: Learned to collaborate and communicate effectively in a team, appreciating diverse contributions and working towards common goals.
+ 
+
+Due on Apr 13, 2026 11:59 PM
+Available on Apr 3, 2026 12:00 AM. Access restricted before availability starts.
+Available until Apr 14, 2026 11:59 PM. Access restricted after availability ends.
